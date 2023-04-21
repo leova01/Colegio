@@ -1,0 +1,86 @@
+
+.banner{
+    background: linear-gradient(rgba(5,7,12,0.55),rgba(5,7,12,0.25)),url(../fotos/Banner1.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.banner h1{
+    color: #fff;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+
+    .banner img{
+        padding-top: 10vh;
+        justify-content: center;
+        align-items: center;
+        display: block;
+        margin: 0px auto;
+        }
+
+        .banner2{
+            background: linear-gradient(rgba(5,7,12,0.55),rgba(5,7,12,0.25)),url(../fotos/profile1.jpg);
+            height: 40vh;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        .banner2 h1{
+            color: #fff;
+            display: block;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 15vh 0px;
+            }
+
+            .banner3{
+                background: linear-gradient(rgba(5,7,12,0.55),rgba(5,7,12,0.25)),url(../fotos/orquesta.jpg);
+                height: 50vh;
+                background-size: cover;
+                background-position: center;
+                background-attachment: fixed;
+            }
+
+            .banner3 h1{
+                color: #fff;
+                display: block;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                padding: 10vh 0px;
+                font-weight: 300;
+                font-size: 2.0rem;
+            }
+
+            @media screen and (max-width:1071px){
+                .banner3 h1{
+                    font-size: 1.5rem;
+                }
+            }
+
+            @media screen and (max-width:583px){
+            .banner3 h1{
+            font-size: 1.2rem;
+            }
+            }
+
+            @media screen and (max-width:392px){
+                .banner2 h1{
+                    font-size: 1.2rem;
+                }
+            }
+
+            @media screen and (max-width:394px){
+                .banner3 h1{
+                    font-size: 1.0rem;
+                }
+            }
+
+          
