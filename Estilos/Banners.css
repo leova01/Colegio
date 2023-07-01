@@ -1,6 +1,6 @@
 
 .banner{
-    background: linear-gradient(rgba(5,7,12,0.55),rgba(5,7,12,0.25)),url(../fotos/Banner1.png);
+    background: linear-gradient(rgba(5,7,12,0.55),rgba(5,7,12,0.25)),url(../fotos/Banner1.webp);
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -24,7 +24,7 @@
         }
 
         .banner2{
-            background: linear-gradient(rgba(5,7,12,0.55),rgba(5,7,12,0.25)),url(../fotos/profile1.jpg);
+            background: linear-gradient(rgba(5,7,12,0.55),rgba(5,7,12,0.25)),url(../fotos/profile1.webp);
             height: 40vh;
             background-size: cover;
             background-position: center;
@@ -41,7 +41,7 @@
             }
 
             .banner3{
-                background: linear-gradient(rgba(5,7,12,0.55),rgba(5,7,12,0.25)),url(../fotos/orquesta.jpg);
+                background: linear-gradient(rgba(5,7,12,0.55),rgba(5,7,12,0.25)),url(../fotos/orquesta.webp);
                 height: 50vh;
                 background-size: cover;
                 background-position: center;

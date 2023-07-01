@@ -175,9 +175,7 @@ footer h1{
   background-color:linear-gradient(rgba(5,7,12,0.55),rgba(5,7,12,0.25)),url(../fotos/SliderIMG1.png);
 }
 
-.banda img{
 
-}
 
 
 @media screen and (max-width:650px){
@@ -234,3 +232,64 @@ gap: 20px;
 height: auto;
 }
 
+.icon img{
+  width: 75px;
+  height: 42px;
+  padding-right: 0.7rem;
+  margin-top: -0.3rem;
+}
+
+footer .sectionFooter{
+  display: inline-block;
+  margin: 1rem;
+}
+
+.wrapper .button2{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  margin: 5px;
+  overflow: hidden;
+  background:rgb(150, 185, 223);
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+}
+
+.wrapper .button2 .icon{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  border-radius: 50px;
+  box-sizing: border-box;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+}
+
+.wrapper .button2:nth-child(1){
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  margin: 5px;
+  overflow: hidden;
+  background: #5e81d4;;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+}
+
+.wrapper .button2:hover .icon{
+  background: #96b9df;
+}
+
+
+.wrapper .button2 .icon i{
+  font-size: 25px;
+  line-height: 60px;
+  transition: all 0.3s ease-out;
+  color: #fff;
+}
+.wrapper .button2:hover .icon i{
+  color: #fff;
+}
