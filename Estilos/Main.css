@@ -232,17 +232,7 @@ gap: 20px;
 height: auto;
 }
 
-.icon img{
-  width: 75px;
-  height: 42px;
-  padding-right: 0.7rem;
-  margin-top: -0.3rem;
-}
 
-footer .sectionFooter{
-  display: inline-block;
-  margin: 1rem;
-}
 
 .wrapper .button2{
   display: inline-block;
@@ -279,6 +269,22 @@ footer .sectionFooter{
   box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
 }
 
+
+.wrapper .button2:nth-child(2){
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  margin: 5px;
+  overflow: hidden;
+  background: rgb(219, 151, 0);
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+}
+
+
+
+
 .wrapper .button2:hover .icon{
   background: #96b9df;
 }
@@ -292,4 +298,16 @@ footer .sectionFooter{
 }
 .wrapper .button2:hover .icon i{
   color: #fff;
+}
+
+
+.icon .VenamchamIMG{
+  width: 75px;
+  height: 42px;
+  padding-right: 0.7rem;
+  margin-top: -0.3rem;
+}
+
+.icon .CamaraDeComercioIMG{
+  width: 50px;
 }
